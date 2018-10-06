@@ -5,12 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    >
-
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"></include>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/r1"
         android:layout_width="match_parent"
-        android:layout_height="474dp" />
+        android:layout_height="match_parent"
+        android:layout_gravity="top">
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

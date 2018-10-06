@@ -1,8 +1,10 @@
 package com.example.stingg.notebook;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,6 +47,12 @@ Context context;
             super(itemView);
             tieude = (TextView) itemView.findViewById(R.id.tieude);
             noidung = (TextView) itemView.findViewById(R.id.noidung);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                }
+            });
         }
     }
+
 }

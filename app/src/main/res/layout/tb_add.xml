@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:id="@+id/tb_add"
+    android:background="#0095ff">
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:background="@null"
+        android:src="@drawable/ic_arrow_back_white_48dp"
+        />
+    <ImageButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_note_add_white_48dp"
+        />
+</android.support.design.widget.CoordinatorLayout>
+</android.support.v7.widget.Toolbar>
